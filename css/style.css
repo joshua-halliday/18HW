@@ -1,0 +1,300 @@
+/* Typography */
+
+h1 {
+    /* H1 Desktop */
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 80px;
+
+color: #000000;
+}
+h2 {
+    /* H2 Desktop */
+
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 60px;
+
+color: #000000;
+}
+h3 {
+    /* H3 Desktop */
+
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 45px;
+
+color: #000000;
+}
+h4 {
+    /* H4 Desktop */
+
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+margin: 0px;
+color: #000000;
+}
+h5 {
+    /* H5 Desktop */
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+
+color: #000000;
+}
+h6 {
+    /* H6 Desktop */
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+color: #000000;
+}
+p {
+/* P pf */
+
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+color: #000000;
+}
+
+
+/* Nav bar CSS */
+.navigation {
+    background-color: #2F4A75;
+    position: absolute;
+    width: 100%;
+    height: 131px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    display: inline-block;
+    
+    
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+
+}
+.headerImage {
+    position: absolute;
+    width: 399px;
+    height: 171px;
+    left: 5.42%;
+    top: -20px;
+ 
+}
+.flexNav {
+    position: absolute;
+    width: 100%;
+    height: 131px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    justify-content: flex-end;
+    align-content: center;
+    display: flex;
+    
+}
+.navLinks {
+    display: inline-block;
+   align-items: center;
+   justify-content: center;
+    padding: 20px;
+    padding-top: 50.5px;
+    padding-bottom: 50.5px;
+    width: auto;
+    
+}
+.navLinks h4 {
+    color: white;
+}
+.contact {
+    padding-right:100px;
+ 
+}
+
+#navButtons {
+    align-items: flex-end ;
+    top: 0px;
+    left: 0px;
+    margin-top: 0px;
+    height: 131px;
+    padding:0px;
+    color: white;
+  
+
+}
+ul {
+    width: 50%;
+    margin-left: auto;
+    display: inline-block;
+    justify-content: end;
+}
+
+/* Hero section */
+.heroImg {
+    height: 766px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    position: absolute;
+    margin-top: 131px;
+}
+.heroImg img {
+    position: absolute;
+    width: 625px;
+    height: 601px;
+    left: 56.6%;
+right: 0%;
+    top: 80px;
+
+}
+.content {
+    
+    margin: 0px;
+}
+
+#contentH1 {
+    
+    position: absolute;
+    width: 820px;
+    height: 160px;
+    left: 6.94%;
+    top: 156px;
+    margin: 0px;
+}
+#contentH1 h1 {
+    margin: 0px;
+}
+
+#contentH4 {
+    position: absolute;
+    width: 715px;
+    height: 150px;
+    left: 6.94%;
+    top: 380px;    
+}
+#contentH4 h4 {
+    margin: 0px;
+}
+button {
+    border: none;
+    background-color: #E6C347;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+.content button {
+    position: absolute;
+width: 400px;
+height: 62px;
+left: 6.94%;
+top: 594px;
+}
+
+/* Footer */
+footer {
+    background-color: #2F4A75;
+    display: flex;
+    
+    position: absolute;
+    top: 897px;
+    height: 271px;
+    left: 0px;
+    right: 0px;
+
+}
+
+#yellowLogo {
+    position: absolute;
+left: 5.42%;
+right: 66.88%;
+top: 0%;
+bottom: 36.9%;
+width: 399px;
+height: 171px;
+
+}
+
+footer h6 {
+    color: white;
+    margin: 0px;
+}
+footer h5 {
+    color: white;
+    margin: 0px;
+}
+
+#contJh {
+    position: absolute;
+    width: 640px;
+    height: 25px;
+    left: 6.94%;
+    bottom: 64px;
+}
+
+#touch {
+    position: absolute;
+width: 130px;
+height: 27px;
+right: 370px;
+bottom: 189px;
+}
+
+.contactLink img {
+    width: 44px;
+}
+
+.liLink {
+    position: absolute;
+width: 278px;
+height: 25px;
+right: 129px;
+bottom: 128px;
+}
+.liEmail {
+    position: absolute;
+width: 250px;
+height: 25px;
+right: 157px;
+bottom: 64px;
+}
+#iconL {
+    position: absolute;
+width: 44px;
+height: 44px;
+right: 427px;
+bottom: 118px;
+}
+#mailL {
+position: absolute;
+
+right: 427px;
+
+bottom: 54px;
+}
