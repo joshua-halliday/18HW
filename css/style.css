@@ -164,12 +164,12 @@ ul {
     margin-top: 131px;
 }
 .heroImg img {
+    width: 305px;
     position: absolute;
-    width: 625px;
-    height: 601px;
-    left: 56.6%;
-right: 0%;
-    top: 80px;
+    height: 418px;
+    
+    right: 6.94%;
+    top: 156px;
 
 }
 .content {
