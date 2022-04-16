@@ -217,13 +217,13 @@ button {
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
+    width: 31%;
+    height: 62px;
 }
 .content button {
     position: absolute;
-width: 400px;
-height: 62px;
-left: 6.94%;
-top: 594px;
+    left: 6.94%;
+    top: 594px;
 }
 
 /* Projects section coded with CSS flex */
@@ -233,21 +233,58 @@ top: 594px;
     padding-left: 6.94%;
     padding-right: 6.94%;
 }
-
+.wh {
+    color: white;
+}
+.projectsTitle {
+    padding-top: 110px;
+    padding-bottom: 64px;
+    margin: 0px;
+}
 .cardHolder {
-    display: flex;
-    height: fit-content;
-    align-items: center;
-    justify-content: center;
+    display:flex;
+    
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 0px;
+    flex-direction: row;
+    flex: 1;
 }
 
 .card {
-    width: 30%;
-    padding: 1.6666667%
+    width: 32%;
+    padding: 0px;
+    background-color: #1D7365;
+    border-radius: 10px;
+   
+    display: flex;
+    flex-direction: column;
+}
+.card h4 {
+    padding: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.card p {
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    margin-bottom: auto;
 }
 
 .card img {
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#mPbutton {
+    margin-left: 34.5%;
+    margin-right: 34.5%;
+    margin-top: 64px;
+    margin-bottom: 110px;
+    width: 32%;
 }
 /* Footer */
 footer {
