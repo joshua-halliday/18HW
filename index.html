@@ -7,7 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,400&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">    </head>
-
+        <meta name="viewport" content="width=device-width,initial-scale=1">
     <body>
 <!--Header/nav desktop section-->
 
@@ -24,6 +24,18 @@
                     </div>
             </nav>
         </header>
+
+<!-- Header for Mobile-->
+<header class="mobileNav">
+    
+        <img id="mobileMenuIcon" src="./images/menu.svg" alt="menu icon">
+   
+    <div>
+        <img class="mobileHeaderLogo" src="./images/Yellow_xsml@3x.png" alt="jh logo">
+    </div>
+
+</header>
+
 <!--Hero section-->
         <section class="heroImg">
             <div class="content">
@@ -41,6 +53,25 @@
                 <img src="./images/BLUE_Xsml@3x.png" alt="Joshua Halliday small blue logo">
             </div>
         </section>
+
+<!--Mobile Hero section-->
+<section class="mobileHeroImg">
+   
+        <img class="joshuaHallidayImg" src="./images/Blue crop@3x.png" alt="Joshua Halliday small blue logo">
+    
+    <div class="content">
+            <div id="contentH1">
+                <h1>Hi, I'm<br>Joshua Halliday,<br>UX & UI designer.</h1>
+         </div>
+            <div id="contentH4">
+            <h4>I’m passionate about combining research & design to create a great holistic experience for the user. 
+             <br><br>
+            My skills include Figma prototyping, double-diamond design approach, and agile project management.</h4>
+            </div>
+        <button id="bAbout" class="button1">About me</button>
+    </div>
+    
+</section>
 <!--Projects section-->
         <section class="projectsSection">
 
@@ -79,8 +110,8 @@
             </div>
             <button id="mPbutton">More Projects</button>
         </section>
-<!--Footer section-->
-        <footer>
+<!--Footer section desktop-->
+        <footer id="desktopFooter">
             <div id="footerGrid" class="displayGrid">
                 <img id="yellowLogo" class="displayGrid" src="./images/YELLOW main smal@3x.png" alt="Joshua Halliday Logo yellow">
                 <div id="contJh">
@@ -102,6 +133,30 @@
                 </div>
             </div>
         </footer>
+<!--Footer section mobile-->
+<footer id="mobileFooter">
+    <div id="div1">
+        <img id="yellowLogoM" class="displayGrid" src="./images/Yellow_xsml@3x.png" alt="Joshua Halliday Logo yellow">
+        <div id="contJh">
+        <h6 id="byJh" class="displayGrid">This site was fully designed and coded by Joshua Halliday. Copyright 2022.</h6>
+
+    </div>
+    <div class="contactMe displayGrid">
+        <div id="touch">
+        <h5>Get in touch:</h5></div>
+        <div class="contactLink">
+            <img id="iconL"src="./images/linkedInIcon.svg" alt="Linked In icon">
+            <p class="clText liLink">linkedin.com/in/Joshua-Halliday</p>
+        </div>
+        <div class="contactLink">
+            <img id="mailL" src="./images/emailIcon.svg" alt="Email icon">
+            <p class="clText liEmail">contact@joshuahalliday.com</P>
+        </div>
+
+    </div>
+</footer>
+
+
 <!-- preloader -->
         <div class="preloader">
             <img src="./images/3x_WHITE_small@3x.png" alt="loading">

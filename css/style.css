@@ -84,6 +84,7 @@ color: #000000;
 
 
 /* Nav bar CSS */
+.mobileNav {display: none;}
 .navigation {
     background-color: #2F4A75;
     position: absolute;
@@ -163,6 +164,9 @@ ul {
 }
 
 /* Hero section */
+.mobileHeroImg {
+    display: none;
+}
 .heroImg {
     height: 766px;
     top: 0px;
@@ -287,6 +291,7 @@ button {
     width: 32%;
 }
 /* Footer */
+#mobileFooter {display: none;}
 footer {
     background-color: #2F4A75;
     width: 100%;
@@ -380,3 +385,200 @@ bottom: 28px;
       transform: scale(300);
     }
   }
+
+/* Media Queries */
+
+ @media only screen and (max-width: 600px) {
+    
+/* Typography for Mobile */
+
+h1 {
+    /* H1 Mobile */   
+    font-size: 36px;
+    line-height: 45px;
+}
+h2 {
+    /* H2 Mobile */
+    font-size: 24px;
+    line-height: 30px;
+}
+h3 {
+    /* H3 Mobile */
+    font-size: 20px;
+    line-height: 25px;
+}
+h4 {
+    /* H4 Mobile */
+    font-size: 18px;
+    line-height: 23px;
+}
+h5 {
+    /* H5 Mobile */
+    font-size: 18px;
+    line-height: 25px;
+}
+h6 {
+    /* H6 Moblie */
+    font-size: 18px;
+    line-height: 25px;
+}
+button {
+    /* Button typography */
+    font-size: 20px;
+    line-height: 27px;
+}
+    /* Mobile Projects */
+    .projectsSection {
+        margin-top: 733px;
+       
+    }
+    .projectsTitle {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        margin: 0px;
+    }
+    .cardHolder {
+         flex-direction: column;
+     }
+     .card {
+         width: 100%;
+     }
+     .middleCard {
+         margin-top: 40px;
+         margin-bottom: 40px;
+     }
+     #mPbutton {
+         width: 100%;
+         height: 48px;
+         margin-left: 0%;
+         margin-right: 0%;
+         margin-top: 40px;
+         margin-bottom: 60px;
+     }
+/* mobile header */
+.navigation {display: none;}
+.mobileNav {
+    display: inline-block;
+    height: 80px;
+    width: 100%;
+    background-color: #2F4A75;
+}
+
+#mobileMenuIcon {
+    width: 54px;
+    margin-left: 6.94%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.mobileHeaderLogo {
+    position: absolute;
+    height: 72px;   
+    right: 6.94%;
+    top: 4px;
+}
+
+/* mobile hero section */
+.heroImg {
+    display: none;
+}
+.mobileHeroImg {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 80px;
+    padding-left: 6.94%;
+    padding-right: 6.94%;
+}
+.joshuaHallidayImg {
+   justify-content: center;
+   align-items: center;
+    width:100%;
+    left: 6.94%;
+    right: 6.94%;
+    margin-top: 70px;
+}
+#contentH1 {
+    right: 6.94%;
+    width: 86.12%;
+    top: 250px;
+}
+
+#contentH4 {
+    right: 6.94%;
+    width: 86.12%;
+    top: 424px;
+}
+#bAbout {
+    right: 6.94%;
+    left: 6.94%;
+    width: 86.12%;
+    top: 625px;
+}
+
+/* mobile footer */
+#desktopFooter {
+    display: none;
+}
+#mobileFooter {
+    display: flex;
+}
+footer h6 {
+    color: white;
+    margin: 0px;
+}
+footer h5 {
+    color: white;
+    margin: 0px;
+}
+
+#mobileFooter {
+    background-color: #2F4A75;
+    width: 86.12%;
+    position: relative;
+    bottom: 0%;
+    height: 411px;
+    
+    left: 0px;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 6.94%;
+    padding-right: 6.94%;
+}
+
+#yellowLogoM {
+    height: 72px;
+    margin-top: 31px;
+}
+
+.contactMe {
+    position: relative;
+height: 246px;
+width: 100%;
+padding-left: 6.94%;
+padding-right: 6.94%;
+bottom: 4%;
+}
+p {
+color: white;
+}
+.contactLink img {
+    padding-left: 0px;
+}
+#div1 {
+    width: 100%;
+}
+#touch h5{
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+#contJh {
+    position: absolute;
+    width: 86.12%;
+    height: 51px;
+    left: 6.94%;
+    right: 6.94%;
+    bottom: 12.17%;
+}
+ }
